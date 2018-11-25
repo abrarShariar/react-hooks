@@ -8,8 +8,9 @@ import { RegularComponent } from './RegularComponent';
 import { HookComponent, HookComponent2 } from './HookComponent';
 
 ReactDOM.render(<div>
-  <HookComponent2/>
+  {/* <HookComponent2/> */}
   <HookComponent/>
+  {/* <RegularComponent/> */}
 </div>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
